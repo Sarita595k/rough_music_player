@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://kit.fontawesome.com/c058ee3c3f.js" crossorigin="anonymous"></script>
+    <title>Music Player</title>
+</head>
+
+<body>
+    <div id="section-container">
+        <button id="toggle-button"></button>
+        <h1 id="main-heading">Music Player</h1>
+        <div id="sub-container">
+            <div id="songs-container">
+                <span>filter by genre</span>
+                <span id="all-songs"></span>
+                <div id="all-songs-list">
+                </div>
+            </div>
+            <div id="image-container">
+            </div>
+            <div id="playlist-container">
+                <div id="playlist-form">
+                    <form><input type="text" name="my-playlist" id="playlistInputBox">
+                        <button type="submit" id="createPlaylistBtn">create playlist</button>
+                    </form>
+                </div>
+                <div id="playlist-list">
+                    <h1>current playlist</h1>
+                </div>
+                <div id="my-playlist">
+                    <h1>all playlist</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

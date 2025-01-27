@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#section-container {
+    background-color: rgb(147, 152, 152);
+    padding: 2rem;
+}
+
+#toggle-button {
+    position: absolute;
+    padding: .5rem;
+    border-radius: 20px;
+    right: 5%;
+}
+
+#main-heading {
+    text-align: center;
+    background: linear-gradient(25deg, rgba(130, 204, 214, 1) 8%, rgba(30, 164, 182, 1) 28%, rgba(28, 213, 239, 1) 51%, rgba(21, 119, 227, 1) 66%, rgba(71, 127, 131, 1) 81%, rgba(0, 174, 187, 1) 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+#sub-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.songs-list,
+.songTitle,
+.SongArtist {
+    text-transform: capitalize;
+}
+
+#image-container img {
+    height: 20rem;
+    width: 20rem;
+}
+
+#songs-container,
+#image-container,
+#playlist-container {
+    flex: 1;
+    padding: 1rem;
+    background-color: #187e7e;
+}
+
+.songs-list {
+    display: block;
+    cursor: pointer;
+}
+
+.playlistForm {
+    background-color: rgb(147, 152, 152);
+    padding: 2rem;
+}
+
+.previousButton,
+.nextButton {
+    width: 3rem;
+    padding: .2rem;
+    margin: 2rem;
+    text-align: center;
+}
+
+.addToPlaylist {
+    text-transform: capitalize;
+    padding: .2rem;
+}
+
+.previousButton::before {
+    content: '\f060';
+    font-family: 'FontAwesome';
+}
+
+.nextButton::before {
+    content: '\f061';
+    font-family: 'FontAwesome';
+}
+
+#playlist-list,
+#my-playlist {
+    text-transform: capitalize;
+}
